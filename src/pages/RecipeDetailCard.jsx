@@ -26,7 +26,7 @@ function RecipeDetailCard() {
       <div className="flex flex-col lg:flex-row bg-white shadow-2xl rounded-lg overflow-hidden p-3">
         <div className="lg:w-1/3">
           <img
-            src={recipe.image}
+            src={recipe.image || "https://picsum.photos/200"}
             alt={recipe.name}
             className="object-cover object-center w-full aspect-square"
           />
